@@ -39,9 +39,9 @@
                         </div>
                         <!--end of row-->
                     </form>
-{{--                    <span style="" class="type--fine-print block">ليس لديك حساب ؟--}}
-{{--                                <a style="color: #057a65 !important" href="{{route("register")}}">سجل الان</a>--}}
-{{--                            </span>--}}
+                    <span style="" class="type--fine-print block">ليس لديك حساب ؟
+                                <a style="color: #057a65 !important" href="{{route("register")}}">سجل الان</a>
+                            </span>
 {{--                    <span  class="type--fine-print block">نسيت كلمة المرور ؟--}}
 {{--                                <a style="color: #057a65 !important" href="{{route("password.request")}}">إستعادة كلمة المرور</a>--}}
 {{--                            </span>--}}

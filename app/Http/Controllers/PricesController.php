@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Customer;
 use App\Models\Prices;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,9 @@ class PricesController extends Controller
      */
     public function index()
     {
-        return view('pages.settings.settings');
+        $customer = Customer::query()->get();
+
+        return view('pages.settings.settings')->with(compact('customer'));
 
     }
 

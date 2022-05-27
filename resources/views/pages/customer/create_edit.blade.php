@@ -266,7 +266,13 @@
             @if(!is_null($customer->name)===true)
                 <div class="row">
                     <div class="col-md-12">
-                        <table class="table table-info text-center">
+                        @if (session('message.ss'))
+                            <div class="alert alert-success text-center" style="font-weight: 800;color: #e4b717;background-color: #057a65"
+                                 role="alert">
+                                {{ session('message.ss') }}
+                            </div>
+                        @endif
+                            <table class="table table-info text-center">
                             <thead>
                             <tr>
                                 <th scope="col">الاسعار المتوقعة لكل من</th>

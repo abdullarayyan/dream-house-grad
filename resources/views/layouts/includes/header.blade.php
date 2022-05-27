@@ -1,11 +1,11 @@
 <header>
     <div class="logo-wrapper">
-        <i class='bx bx-menu' onclick="toggleNav()"></i>
+        <a href="/"><i class='bx bx-menu' onclick=""></i></a>
         <a href="{{ url('/customer') }}">
             <div class="logo">
                 <img src="{{ asset('assets/images/logo.png') }}"/>
             </div>
-            <span class="logo-title">Building House</span>
+            <span class="logo-title">Dream House</span>
         </a>
     </div>
 

@@ -162,54 +162,53 @@
 {{--    <script src="{{ url('js/common.js') }}"></script>--}}
 {{--    <script src="{{ url('js/pages/main/app.js') }}"></script>--}}
 
-    <!-- Page -->
+<!-- Page -->
 
     @yield('js')
 </section>
 
-{{--    <div id="loading-content">--}}
-{{--        <footer class="footer-1 text-center-xs space--xs " style="padding-top: 20px;padding-bottom: 0px; background-color: #057a65">--}}
-{{--            <div class="container">--}}
-{{--                <div class="row" style="justify-content: center">--}}
-{{--                    --}}{{--                    <div class="col-sm-4 text-right">--}}
+<div id="loading-content">
+    <footer class="footer-1 text-center"
+            style="padding-top: 20px;padding-bottom: 0px; background-color: #f6f6f6">
+        <div class="container">
+{{--            <div class="row" style="justify-content: center">--}}
+                <div class="">
 
 
-{{--                    --}}{{--                    </div>--}}
-{{--                    <div class="col-sm-8  text-center">--}}
-{{--                        <ul class="social-list list-inline list--hover">--}}
-{{--                            <li style="color: #ffc107!important;" >--}}
-{{--                                <a href="" target="_blank">--}}
-{{--                                    <i class="socicon socicon-facebook icon icon--xs" style="color:#e4b717!important;"></i>--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="#" target="_blank">--}}
-{{--                                    <i class="socicon socicon-twitter icon icon--xs"></i>--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
-{{--                            <li>--}}
-{{--                                <a href="https://www.instagram.com/jasmine.fash/?fbclid=IwAR3L7oHXKpfr9b4_lmuA860eMv9qASuheNsj9Q398DDmeHwkxtw70Yq-FIk" target="_blank">--}}
-{{--                                    <i class="socicon socicon-instagram icon icon--xs"></i>--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
+                </div>
+                <div class="">
+                    <ul class="social-list list-inline list--hover">
+                        <li style="color: #057a65!important;">
+                            <a href="" target="_blank">
+                                <i class="socicon socicon-facebook icon icon--xs" style="color:#057a65!important;"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="socicon socicon-twitter icon icon--xs"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/jasmine.fash/?fbclid=IwAR3L7oHXKpfr9b4_lmuA860eMv9qASuheNsj9Q398DDmeHwkxtw70Yq-FIk"
+                               target="_blank">
+                                <i class="socicon socicon-instagram icon icon--xs"></i>
+                            </a>
+                        </li>
 
-{{--                            --}}{{--                            <li>--}}
-{{--                            --}}{{--                                <a href="https://locate.apple.com/il/en/sales/?pt=1&amp;lat=31.8991848&amp;lon=35.2054965&amp;address=Ramallah" target="_blank">--}}
-{{--                            --}}{{--                                    <i class="socicon socicon-apple icon icon--xs"></i>--}}
-{{--                            --}}{{--                                </a>--}}
-{{--                            --}}{{--                            </li>--}}
-{{--                            --}}{{--                            <li><a target="_blank" dir="ltr" href="https://wa.me/+972569103050">+970 (56) 910 3050</a> <i class="fab fa-whatsapp"></i></li>--}}
-{{--                            --}}{{--                            <li><a href="tel:000000000">0-000-000000</a> <i class="fa fa-phone-square"></i></li>--}}
-{{--                            <li><a style="color:#4a90e2;font-weight: bold" href="https://s11819879.wixsite.com/website"  target="_blank">موقعنا الالكتروني</a></li>--}}
-{{--                        </ul>--}}
-{{--                    </div>--}}
+
+                        <li><a target="_blank" dir="ltr" href="https://wa.me/+972599702861">+970 (59) 970 2861</a> <i
+                                class="fab fa-whatsapp"></i></li>
+{{--                        <li><a style="color:#4a90e2;font-weight: bold" href="https://s11819879.wixsite.com/website"--}}
+{{--                               target="_blank">موقعنا الالكتروني</a></li>--}}
+                    </ul>
 {{--                </div>--}}
+            </div>
 
-{{--            </div>--}}
-{{--        </footer>--}}
+        </div>
+    </footer>
 
 
-{{--    </div>--}}
+</div>
 
 @include('layouts.includes.notifications')
 </body>

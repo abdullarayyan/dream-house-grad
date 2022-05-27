@@ -17,7 +17,7 @@ class CustomerController extends Controller
     {
 
         $customer = new Customer();
-        session()->flash('message.success', 'مرحبا بك, لطفا عزيزي الزائر يرجى مللئ بياناتك للقدرة على التمتع بخدمات الموقع');
+        session()->flash('message.success', 'مرحبا بك, لطفا عزيزي الزائر يرجى مللئ بياناتك والاجابة عن الاسئلة للقدرة على التمتع بخدمات الموقع');
 
         return view('pages.customer.create_edit')->with(compact('customer'));
     }
@@ -146,6 +146,8 @@ class CustomerController extends Controller
             Session::put('bab', $bab);
 
         }
+        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان. لمزيد من المعلومات، يرجى مراسلتنا.');
+
         return redirect(route('customer.edit', $customer));
     }
 
@@ -290,6 +292,8 @@ class CustomerController extends Controller
             Session::put('bab', $bab);
 
         }
+        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان. لمزيد من المعلومات، يرجى مراسلتنا.');
+
         return redirect(route('customer.edit', $customer));
 
     }
