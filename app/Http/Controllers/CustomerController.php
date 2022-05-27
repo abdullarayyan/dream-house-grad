@@ -189,8 +189,8 @@ class CustomerController extends Controller
     public function update(Request $request, Customer $customer)
     {
         session_reset();
-        Customer::query()->update(
-            $request->except('_token','_method')
+        Customer::query()->updateOrCreate(['id' => $customer->id],
+            $request->except('_token', '_method')
         );
 
         if ($customer->type_house === "مستقل") {
