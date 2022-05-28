@@ -58,14 +58,105 @@
             </div>
 
 
+            <div class="row" style="
+            margin-top: 20px;
+                        padding: 30px;
+                        border-radius: 30px!important;
+                        background-color: #057a65;
+                        ">
 
 
+
+                <div class="col-md-8 text-center" style="
+                                 border-radius:
+                                 30px!important;
+                                 background-color: #e4b717;
+                                 ">
+
+
+                    <p style="
+                            padding: 10%;
+                            width: 100%;
+                            color: #070707;
+                            font-size: x-large;
+                            font-weight: 500;
+                                    ">
+                        تطبيق فكرة المشروع ومعالجة المشاكل التي يواجهها أصحاب الاستثمارات أو أي شخص يرغب في بناء منزل وتسريع العمل المطلوب لتأسيس منزل أو استثمار ، ويكون لديهم فكرة جيدة عن التكاليف
+
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-4 text-center" style="
+                 border-radius:
+                 30px!important;
+                 background-color: #057a65;
+                 ">
+
+                    <p style="
+                        padding: 5%;
+                        margin-top: 100px;
+                    font-weight: 700;
+                    font-size: 39px;
+                    color: #e4b717;
+                    ">رؤيتنا</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="row" style="
+                        margin-top: 20px;
+
+                        padding: 30px;
+                        border-radius: 30px!important;
+                        background-color: #057a65;
+                        ">
+
+
+                <div class="col-md-4 text-center" style="
+                 border-radius:
+                 30px!important;
+                 background-color: #057a65;
+                 ">
+
+                    <p style="
+                        padding: 5%;
+                        margin-top: 100px;
+                    font-weight: 700;
+                    font-size: 39px;
+                    color: #e4b717;
+                    ">رسالتنا</p>
+                </div>
+                <div class="col-md-8 text-center" style="
+                                 border-radius:
+                                 30px!important;
+                                 background-color: #e4b717;
+                                 ">
+
+
+                    <p style="
+                            padding: 10%;
+                            width: 100%;
+                            color: #070707;
+                            font-size: x-large;
+                            font-weight: 500;
+                                    ">
+                        منزل أحلامك بالشكل الذي تريده وتريده ، وبأجمل وجه ، وبجهد ووقت أقل ، وبدون عناء ، وبمساعدة كل من يبنون منزلًا من الصفر.
+                    </p>
+
+                </div>
+
+
+            </div>
 
             <div class="row m-t-10" style="    padding: 30px;
-    margin-top: 18px;
-    border-radius: 30px!important;
-    background-color: #057a65;
-                        ">
+                            margin-top: 18px;
+                            border-radius: 30px!important;
+                            background-color: #057a65;
+                                                ">
 
 
 
@@ -133,7 +224,7 @@
                     font-weight: 700;
                     font-size: 39px;
                     color: #e4b717;
-                    ">اهدافنا</p>
+                    ">هدفنا</p>
                 </div>
 
 
