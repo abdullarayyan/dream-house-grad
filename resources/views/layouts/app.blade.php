@@ -189,7 +189,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/jasmine.fash/?fbclid=IwAR3L7oHXKpfr9b4_lmuA860eMv9qASuheNsj9Q398DDmeHwkxtw70Yq-FIk"
+                            <a href="#"
                                target="_blank">
                                 <i class="socicon socicon-instagram icon icon--xs"></i>
                             </a>
