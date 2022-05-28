@@ -146,7 +146,7 @@ class CustomerController extends Controller
             Session::put('bab', $bab);
 
         }
-        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان. لمزيد من المعلومات، يرجى مراسلتنا.');
+        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان. وسيتم التواصل معك قريبا.');
 
         return redirect(route('customer.edit', $customer));
     }
@@ -292,7 +292,7 @@ class CustomerController extends Controller
             Session::put('bab', $bab);
 
         }
-        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان. لمزيد من المعلومات، يرجى مراسلتنا.');
+        session()->flash('message.ss', 'ملحوظة: هذه التكلفة تقريبية تم حسابها على سعر اليوم، و قد تختلف التكلفة الفعلية حسب مكان المبنى  بزيادة أو نقصان.وسيتم التواصل معك قريبا.');
 
         return redirect(route('customer.edit', $customer));
 
