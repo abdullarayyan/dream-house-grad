@@ -47,6 +47,7 @@ class CustomerController extends Controller
             $request->except('_token')
         );
 
+
         if ($customer->type_house === "مستقل") {
 
             $windo = ((($customer->number_floor_b * $customer->aria_b) / 100) * $this->getSettingsObject('WINDOW')->value) * $this->getSettingsObject('WINDOW_PP')->value;

@@ -267,12 +267,13 @@
                 <div class="row">
                     <div class="col-md-12">
                         @if (session('message.ss'))
-                            <div class="alert alert-success text-center" style="font-weight: 800;color: #e4b717;background-color: #057a65"
+                            <div class="alert alert-success text-center"
+                                 style="font-weight: 800;color: #e4b717;background-color: #057a65"
                                  role="alert">
                                 {{ session('message.ss') }}
                             </div>
                         @endif
-                            <table class="table table-info text-center">
+                        <table class="table table-info text-center">
                             <thead>
                             <tr>
                                 <th scope="col">الاسعار المتوقعة لكل من</th>
@@ -284,58 +285,70 @@
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للبناء</th>
                                 <td>
-                                    <a href="#">{{Session::get('price_benaa')}}</a>
+                                    <a href="#">₪{{Session::get('price_benaa')}}</a>
                                 </td>
 
                             </tr>
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للتشطيب الخارجي</th>
                                 <td>
-                                    <a href="#">{{Session::get('price_qsara')}}</a>
+                                    <a href="#">₪{{Session::get('price_qsara')}}</a>
                                 </td>
                             </tr>
 
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للتشطيب الداخلي</th>
                                 <td>
-                                    <a href="#">{{Session::get('price_decor')}}</a>
+                                    <a href="#">₪{{Session::get('price_decor')}}</a>
                                 </td>
                             </tr>
 
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للتمديدات الصحية</th>
                                 <td>
-                                    <a href="#">{{Session::get('price_wa')}}</a>
+                                    <a href="#">₪{{Session::get('price_wa')}}</a>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للبلاط</th>
                                 <td>
-                                    <a href="#">{{Session::get('balat')}}</a>
+                                    <a href="#">₪{{Session::get('balat')}}</a>
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للتمديدات الكهربائية</th>
                                 <td>
-                                    <a href="#">{{Session::get('price_el')}}</a>
+                                    <a href="#">₪{{Session::get('price_el')}}</a>
                                 </td>
                             </tr>
 
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع للالمنيوم</th>
                                 <td>
-                                    <a href="#">{{Session::get('sh')}}</a>
+                                    <a href="#">₪{{Session::get('sh')}}</a>
                                 </td>
                             </tr>
 
                             <tr>
                                 <th scope="col">المبلغ الاجمالي المتوقع الابواب</th>
                                 <td>
-                                    <a href="#">{{Session::get('bab')}}</a>
+                                    <a href="#">₪{{Session::get('bab')}}</a>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th scope="col">المبلغ الاجمالي</th>
+                                <td>
+                                    <a href="#">₪{{
+    Session::get('price_benaa')+Session::get('price_qsara')+Session::get('price_decor')+Session::get('price_wa')+Session::get('balat')+Session::get('price_el')+Session::get('sh')+Session::get('bab')
+
+                                            }}</a>
                                 </td>
                             </tr>
                             </tbody>
                         </table>
+
+
                     </div>
                 </div>
             @endif
