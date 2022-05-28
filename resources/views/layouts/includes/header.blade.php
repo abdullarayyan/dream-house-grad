@@ -1,7 +1,14 @@
 <header>
     <div class="logo-wrapper">
-        <a href="/"><i class='bx bx-menu' onclick=""></i></a>
+        <a href="/"><i class='bx bx-home' onclick="" style="    font-size: 30px;
+    margin-left: 20px;
+    color: #dbebe8;
+    cursor: pointer;"></i></a>
         <a href="{{ url('/customer') }}">
+            <i class='bx bx-calculator' onclick="" style="    font-size: 30px;
+    margin-left: 20px;
+    color: #dbebe8;
+    cursor: pointer;"></i>
             <div class="logo">
                 <img src="{{ asset('assets/images/logo.png') }}"/>
             </div>
