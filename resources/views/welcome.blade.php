@@ -30,7 +30,7 @@
                     font-weight: 700;
                     font-size: 39px;
                     color: #e4b717;
-                    ">نبذه عن المشروع</p>
+                    ">من نحن</p>
                 </div>
                 <div class="col-md-8 text-center" style="
                                  border-radius:
